@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 2px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.ayurvedic{
+    display:block;
+    background-size:cover;
+}
+.button-container{
+    display:flex;
+}
+section {
+    padding: 20px;
+}
+.btn1{
+    padding:10px;
+    border-width:0px;
+    border-radius:10px;
+    margin:3px;
+}
+.button{
+    position: absolute; /* set button to an absolute position */
+    top: 50%; /* adjust the top position of the button */
+    left: 50%; /* adjust the left position of the button */
+    transform: translate(-50%, -50%); /* center the button */
+    z-index: 2; /* set a higher z-index than the image */
+    background-color: #007bff; /* set your desired background color */
+    color: #fff; /* set your desired text color */
+    border: none; /* remove button border */
+    padding: 10px 20px; /* set your desired padding */
+    cursor: pointer; /* change mouse cursor on hover */
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+.container {
+    position: relative;
+    display: block;
+    width:100%
+}
+
+.container img {
+    display: block;
+    max-width: 100%;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:first-child {
+    top: 25%;
+}
